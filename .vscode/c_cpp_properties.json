@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/gy_gimbal_controller/**",
+                "~/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "~/.platformio/packages/framework-arduino-avr/variants/standard",
+                "~/.platformio/packages/toolchain-atmelavr/avr/include",
+                "~/.platformio/packages/framework-arduino-avr/libraries/**"
+            ],
+            "defines": [
+                // "ARDUINO=10808", // Or the version of Arduino you're using
+                // "__AVR_ATmega328P__" // Replace with your board's MCU if different
+            ],
+            "compilerPath": "/usr/bin/avr-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
