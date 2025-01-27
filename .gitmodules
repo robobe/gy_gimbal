@@ -3,7 +3,7 @@
 	url = https://github.com/robobe/gy_gimbal.wiki.git
 [submodule "gy_gimbal_controller"]
 	path = gy_gimbal_controller
-	url = git@github.com:robobe/gy_gimbal_controller.git
+	url = http://github.com/robobe/gy_gimbal_controller.git
 [submodule "gy_gimbal_gui"]
 	path = gy_gimbal_gui
-	url = git@github.com:robobe/gy_gimbal_gui.git
+	url = http://github.com/robobe/gy_gimbal_gui.git
